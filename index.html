@@ -6,11 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Responsive Image Slider</title>
+    <script src="https://kit.fontawesome.com/e3f461dde5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+    <section class="container">
+        <div class="slider-wrapper">
+            <button id="prev-slide" class="slide-button fa-solid fa-caret-left"></button>
+            <div class="image-list">
+                <img src="images/img-1.jpg" alt="image1" class="image-item">
+                <img src="images/img-2.jpg" alt="image2" class="image-item">
+                <img src="images/img-3.jpg" alt="image3" class="image-item">
+                <img src="images/img-4.jpg" alt="image4" class="image-item">
+                <img src="images/img-5.jpg" alt="image5" class="image-item">
+                <img src="images/img-6.jpg" alt="image6" class="image-item">
+                <img src="images/img-7.jpg" alt="image7" class="image-item">
+                <img src="images/img-8.jpg" alt="image8" class="image-item">
+                <img src="images/img-9.jpg" alt="image9" class="image-item">
+                <img src="images/img-10.jpg" alt="image10" class="image-item">
+            </div>
+            <button id="next-slide" class="slide-button fa-solid fa-caret-right"></button>
+        </div>
 
+        <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
+            </div>
+        </div>
+
+    </section>
     <script src="./app.js"></script>
 </body>
 
